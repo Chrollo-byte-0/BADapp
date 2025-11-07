@@ -1,0 +1,58 @@
+cd c:Entrar a github
+darle a new
+ponerle nombre
+abrir git bach (ejecutar como admin)
+
+
+Comandos:
+pwd
+cd c: (direccion de carpeta)
+ls (para saber las carpetas que se encuentran dentro el disco de c)
+mkdir paso (para ponerle el nombre)
+(luego guardas culquier archivo el la carpeta en este caso con el nombre "paso",
+en disco c:,yo guarde el bloc de notas con otro nombre, puede ser el que tu quieras,
+)
+cd paso
+ls
+git init
+git add .
+git commit -m "Mi primer comentario"
+git branch -M main
+git remote add origin https://github.com/sebzh-byte/gzmoweb1.git
+(Este te lo da en la pagina de github junto con los demas comandos)
+git push -u origin main
+
+-----
+hacer copia en aws
+
+sudo apt update
+sudo apt upgrade
+sudo apt install git
+sudo git clone "url"
+ls
+cd "name carpeta"
+ls
+sudo poweroff
+
+----
+
+apache xd (este sirve para que el archivo pueda ser visible en una pagina
+o sea copiando la ip publica en el buscador)
+
+sudo apt update
+sudo apt upgrade
+sudo apt install git
+sudo apt install apache2
+cd /var
+cd www
+ls
+cd HTML
+sudo rm -f index.html
+ls
+sudo git clone "url"
+ls
+cd "name carpeta"
+ls
+sudo poweroff
+
+---
